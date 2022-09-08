@@ -25,4 +25,4 @@ Mock-Up
 
 GitHub Repository URL: https://github.com/Josh236061/Code-Quiz
 
-Published Website URL: 
+Published Website URL: https://josh236061.github.io/Code-Quiz/
