@@ -13,7 +13,7 @@ body{
 	align-items: center;
 	border: 1px solid black;
 	margin: 50px;
-	background-color:rgb(240, 235, 235) ;
+	background-color:rgb(4, 228, 176);
 	border-radius: 10px;
 }
 #questions-div{
@@ -27,7 +27,7 @@ body{
 	padding: 5px;
 	width: 80vw;
 	height: 10vh;
-	background-color: #e8cdcd;
+	background-color:rgb(228, 4, 198);
 	font-size: x-large;
 	text-align: center;
 	
@@ -48,7 +48,7 @@ body{
 	padding: 5px;
 	width: 80vw;
 	height: 20vh;
-	background-color: #9eb1b3;
+	background-color:rgb(4, 228, 176);
 		
 }
 .option{	
@@ -56,11 +56,11 @@ body{
 	width: 15vw;
 	height: 10vh;
 	font-size: larger;
-	background-color: rgb(215, 250, 135);
+	background-color: rgb(225, 12, 136);
 	border-radius: 25%;
 }
 .option:hover{
-	background-color: lightgoldenrodyellow;
+	background-color:rgb(4, 228, 176);
 	cursor: pointer;
 }
 .navigation{
@@ -70,7 +70,7 @@ body{
 	padding: 5px;
 	display: flex;
 	justify-content: space-around;
-	background-color:#c7dddf;
+	background-color:rgb(4, 228, 176);
 }
 
 .evaluate,.next{
@@ -81,12 +81,12 @@ body{
 }
 .evaluate{
 	
-	background-color: #6550db;
+	background-color:rgb(4, 228, 176);
 }
 .evaluate:hover{
 	cursor: pointer;
 }
 .next{
 	color: white;
-	background-color: #BF3325;
+	background-color:rgb(224, 13, 143);
 }

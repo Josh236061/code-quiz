@@ -57,7 +57,6 @@ startButton.addEventListener("click" , function() {
         time = 300;
         iterate("0");
         hasStarted = true;
-
         timer.innerHTML = `Time Left: ${time} seconds`;
     console.log("Start button is clicked");
     startButton.innerHTML = "End Quiz!";
@@ -89,13 +88,16 @@ function showForm(){
     form = document.getElementById("name-form");
     form.style.display = "block";
     questionsDiv.style.display = "none";
-   nameButton = document.getElementById("name-button");
-   nameButton.addEventListener("click",() => {
-        nameInput = document.getElementById("name");
-        var finName = nameInput.innerText;
-        stopQuiz();
-   }); 
+    nameButton = document.getElementById("name-button");
+    nameButton.addEventListener("click",() => {
+            nameInput = document.getElementById("name");
+            var finName = nameInput.innerText;
+            stopQuiz();
+    }); 
 }
+
+// function for highscore value(s)
+
 function highScore(score) {
     var saved = 0;
     try { saved = parseFloat(localStorage.highScore); } catch (e) { saved = 0; }
@@ -113,6 +115,8 @@ function highScore(score) {
     console.log("HUaa");
     return saved;
  }
+
+ // results function for once Quiz ends
 function stopQuiz(){
     highScore(score);
     time = 0;
@@ -197,12 +201,11 @@ op4.addEventListener("click", () => {
 })
 
 
-
-
 // Grabbing the evaluate button
 const evaluate = document.getElementsByClassName("evaluate");
 result[0].innerText = "";
 var isEvaluate = false;
+
 // Evaluate method
 evaluate[0].addEventListener("click", () => {
     if(!isEvaluate){

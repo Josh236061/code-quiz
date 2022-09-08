@@ -23,6 +23,6 @@ WHEN the game is over
 THEN I can save my initials and score
 Mock-Up
 
-GitHub Repository URL:
+GitHub Repository URL: https://github.com/Josh236061/Code-Quiz
 
 Published Website URL: 
